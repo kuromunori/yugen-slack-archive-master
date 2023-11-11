@@ -1,0 +1,26 @@
+indexes:
+- kind: Meassage
+  properties:
+  - name: ts
+    direction: desc
+  - name: channel_id
+    direction: asc
+  - name: user
+    direction: asc
+
+- kind: Message 
+  properties:
+  - name: channel_id 
+  - name: ts 
+    direction: desc
+
+- kind: Message 
+  properties:
+  - name: channel_id 
+  - name: ts 
+
+
+- kind: Message
+  properties:
+  - name: user
+  - name: ts

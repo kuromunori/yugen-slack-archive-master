@@ -1,0 +1,12 @@
+cron:
+- description: "daily get item job"
+  url: /cron/job
+  schedule: every 1 hours
+
+- description: "creating search index for all messages"
+  url: /cron/create_search_index
+  schedule: 1 of jan,april,july,oct 00:00
+
+#- description: "loading log job"
+#  url: /upload/log
+#  schedule: every 1 hours
